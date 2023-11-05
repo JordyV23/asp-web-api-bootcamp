@@ -6,7 +6,7 @@ namespace read_data
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hallo Welt!");
         }
     }
 }
