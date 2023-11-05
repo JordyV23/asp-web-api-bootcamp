@@ -1,0 +1,13 @@
+D:\Mis Proyectos\C# .NET\asp-web-api-bootcamp\read-data\bin\Debug\netcoreapp3.1\read-data.exe
+D:\Mis Proyectos\C# .NET\asp-web-api-bootcamp\read-data\bin\Debug\netcoreapp3.1\read-data.deps.json
+D:\Mis Proyectos\C# .NET\asp-web-api-bootcamp\read-data\bin\Debug\netcoreapp3.1\read-data.runtimeconfig.json
+D:\Mis Proyectos\C# .NET\asp-web-api-bootcamp\read-data\bin\Debug\netcoreapp3.1\read-data.runtimeconfig.dev.json
+D:\Mis Proyectos\C# .NET\asp-web-api-bootcamp\read-data\bin\Debug\netcoreapp3.1\read-data.dll
+D:\Mis Proyectos\C# .NET\asp-web-api-bootcamp\read-data\bin\Debug\netcoreapp3.1\read-data.pdb
+D:\Mis Proyectos\C# .NET\asp-web-api-bootcamp\read-data\obj\Debug\netcoreapp3.1\read-data.csprojAssemblyReference.cache
+D:\Mis Proyectos\C# .NET\asp-web-api-bootcamp\read-data\obj\Debug\netcoreapp3.1\read-data.csproj.CoreCompileInputs.cache
+D:\Mis Proyectos\C# .NET\asp-web-api-bootcamp\read-data\obj\Debug\netcoreapp3.1\read-data.AssemblyInfoInputs.cache
+D:\Mis Proyectos\C# .NET\asp-web-api-bootcamp\read-data\obj\Debug\netcoreapp3.1\read-data.AssemblyInfo.cs
+D:\Mis Proyectos\C# .NET\asp-web-api-bootcamp\read-data\obj\Debug\netcoreapp3.1\read-data.dll
+D:\Mis Proyectos\C# .NET\asp-web-api-bootcamp\read-data\obj\Debug\netcoreapp3.1\read-data.pdb
+D:\Mis Proyectos\C# .NET\asp-web-api-bootcamp\read-data\obj\Debug\netcoreapp3.1\read-data.genruntimeconfig.cache
