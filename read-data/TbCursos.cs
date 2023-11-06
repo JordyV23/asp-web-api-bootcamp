@@ -9,7 +9,7 @@ namespace read_data
 {
     // Esta clase es la representación de la tabla 'Curso' de la base de datos
     // Diese Klasse ist die Darstellung der Tabelle 'Curso' in der Datenbank
-    public class ClsCurso
+    public class TbCursos
     {
         [Key]
         public int IdCurso { get; set; }

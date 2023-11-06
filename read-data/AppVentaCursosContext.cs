@@ -7,9 +7,9 @@ using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace read_data
 {
-    public class ClsAppVentaCursosContext : DbContext
+    public class AppVentaCursosContext : DbContext
     {
-        private const string connectionString = @"";
+        private const string connectionString = @"Data Source=LAPTOP-KF4JPDN6; Initial Catalog=DbCursosOnline;Integrated Security=True";
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -18,6 +18,6 @@ namespace read_data
 
         // Este DbSet es el que se va a utilizar para hacer las consultas a la base de datos
         // Dieses DbSet wird verwendet, um Abfragen an die Datenbank zu stellen
-        public DbSet<ClsCurso> TbCursos { get; set; }
+        public DbSet<TbCursos> TbCursos { get; set; }
     }
 }

@@ -8,7 +8,7 @@ namespace read_data
     {
         static void Main(string[] args)
         {
-            using (var db = new ClsAppVentaCursosContext())
+            using (var db = new AppVentaCursosContext())
             {
                 // Utiliza AsNoTracking para no tener que hacer seguimiento de los cambios en la base de datos
                 var cursos = db.TbCursos.AsNoTracking();
