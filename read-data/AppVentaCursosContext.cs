@@ -19,6 +19,8 @@ namespace read_data
         // Este DbSet es el que se va a utilizar para hacer las consultas a la base de datos
         // Dieses DbSet wird verwendet, um Abfragen an die Datenbank zu stellen
         public DbSet<Cursos> TbCursos { get; set; }
+        public DbSet<Categorias> TbCategoria { get; set; }
         public DbSet<Precio> TbPrecio { get; set; }
+        public DbSet<Comentario> TbComentario { get; set; }
     }
 }

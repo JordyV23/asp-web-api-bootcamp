@@ -11,11 +11,14 @@ namespace read_data
             using (var db = new AppVentaCursosContext())
             {
                 // Utiliza AsNoTracking para no tener que hacer seguimiento de los cambios en la base de datos
-                var cursos = db.TbCursos.Include(p=> p.TbPrecio).AsNoTracking();
-                foreach(var curso in cursos)
+                var cursos = db.TbCursos.Include(c => c.ComentariosLista).AsNoTracking();
+                foreach (var curso in cursos)
                 {
                     Console.WriteLine(curso.Titulo);
-                    Console.WriteLine(curso.TbPrecio.PrecioActual);
+                    foreach (var comentario in curso.ComentariosLista)
+                    {
+                        Console.WriteLine(comentario.ComentarioTexto);
+                    }
                 }
             }
         }

@@ -14,8 +14,11 @@ namespace read_data
         public int CursosId { get; set; }
         public string Titulo { get; set; }
         public string Descripcion { get; set; }
-        public int IdCategoria { get; set; }
+        public Categorias TbCategorias { get; set; }
+        public int CategoriasId { get; set; }
         public DateTime FechaPublicacion { get; set; }
         public Precio TbPrecio { get; set; }
+
+        public ICollection<Comentario> ComentariosLista { get; set; }
     }
 }
